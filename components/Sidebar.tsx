@@ -1,6 +1,5 @@
 import {
   Command,
-  CommandDialog,
   CommandEmpty,
   CommandGroup,
   CommandInput,
@@ -48,7 +47,7 @@ const Sidebar = () => {
           </CommandItem>
           <CommandItem>
             <CreditCard className='mr-2 h-4 w-4' />
-            <span>Billings</span>
+            <span>Billing</span>
             <CommandShortcut>⌘B</CommandShortcut>
           </CommandItem>
           <CommandItem>
